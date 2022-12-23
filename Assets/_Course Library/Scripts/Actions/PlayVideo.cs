@@ -103,6 +103,7 @@ public class PlayVideo : MonoBehaviour
 
     public void TogglePlayPause()
     {
+        videoMaterial.color = Color.white;
         if (videoPlayer.isPlaying)
             videoPlayer.Pause();
         else
